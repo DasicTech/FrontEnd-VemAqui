@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:ital,wght@1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #574874;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #574874;
+  border-bottom: 1px solid black;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+li {
+  font-size: 19px;
+  color: aliceblue;
+  font-family: sans-serif;
+  list-style: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+li:hover {
+  color: black;
+}
+
+.TituloP {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.TituloS {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.text-form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.text-hd {
+  color: #fff;
+  font-family: "Open sans", sans-serif;
+  text-decoration-color: #fff;
+  transition: 1s;
+}
+.text-hd:hover {
+  transform: scale(1.05);
+}
+a:visited {
+  color: #fff;
+}
+
+.formulario-content {
+  align-items: center;
+}
+.formulario {
+  margin-top: 35px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+}
+
+label,
+select {
+  display: block;
+}
+input,
+select,
+option {
+  width: 250px;
+  height: 50px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  color: black;
+  border: transparent;
+  border-bottom: solid 3px white;
+  transition: 0.5s;
+  outline: none;
+  background-color: white;
+}
+
+input:hover {
+  border-bottom: solid rgb(204, 117, 204);
+  transform: scale(1.05);
+}
+
+button {
+  display: inline-block;
+  background-color: white;
+  font-size: 17px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: black;
+  width: 50%;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 15px;
+  margin-left: 20%;
+}
+
+.bt:hover {
+  color: white;
+  background-color: rgb(204, 117, 204);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  height: 300px;
+}
+
+span {
+  color: #fff;
+  font-size: 19px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.footer-navigation {
+  display: none;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login {
+  position: absolute;
+  left: 78%;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .footer-navigation {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+}
