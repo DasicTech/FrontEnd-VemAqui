@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:ital,wght@1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #574874;
+}
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #574874;
+  border-bottom: 1px solid black;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+li {
+  font-size: 19px;
+  color: aliceblue;
+  font-family: sans-serif;
+  list-style: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+li:hover {
+  color: black;
+}
+
+.text-hd {
+  color: #fff;
+  font-family: "Open sans", sans-serif;
+  text-decoration: none;
+  transition: 1s;
+}
+.text-hd:hover {
+  transform: scale(1.05);
+}
+a:visited {
+  color: #fff;
+}
+#login {
+  position: absolute;
+  left: 78%;
+  align-items: center;
+}
+h1 {
+  position: absolute;
+  color: white;
+  font-size: 400%;
+  bottom: 55%;
+  left: 10%;
+}
+h2 {
+  position: absolute;
+  color: white;
+  font-size: 200%;
+  bottom: 15%;
+  left: 12%;
+}
+.text {
+  position: absolute;
+  color: white;
+  font-size: 180%;
+  top: 40%;
+  left: 8%;
+}
+
+.container img {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+}
+.text-complemento {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  color: white;
+  font-size: 25px;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <title>Vem Aqui</title>
+    <link rel="stylesheet" href="/pesquisa.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="rodape.css">
+  </head> 
+
+  <body>
+    <header class="header">
+      <p class="text-hd"><a href="./home.html">VEM AQUI</a></p>
+      <nav>
+        <ul>
+          <a href="./home.html">
+            <li>INICIO</li>
+          </a>
+          <a href="">
+            <li>PESQUISADOR</li>
+          </a>
+          <a href="">
+            <li>FEEDBACK</li>
+          </a>
+          
+        </ul>
+      </nav>
+    </header>
+
+<h1>Cadastro de estabelecimentos</h1>
+
+   <!-- <div id="divBusca">
+      <input type="text" id="txtBusca" placeholder="Buscar..."/>
+      <button id="btnBusca">Buscar</button>
+    </div>-->
+<section class="divisao">
+          <fieldset id="imagens">
+      <div">
+        <div class="box">
+        <img id="preview" src="imgs/adicionar.ico" alt="Imagem Preview">
+        <label for="imagem"></label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" onchange="mostrarImagem(event)"><br><br>
+    </div>
+
+    <div class="box">
+        <img id="preview" src="imgs/adicionar.ico" alt="Imagem Preview">
+        <label for="imagem"></label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" onchange="mostrarImagem(event)"><br><br>
+    </div>
+      
+      <div>
+        <div class="box">
+        <img id="preview" src="imgs/adicionar.ico" alt="Imagem Preview">
+        <label for="imagem"></label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" onchange="mostrarImagem(event)"><br><br>
+      </div>
+
+    <div class="box">
+        <img id="preview" src="imgs/adicionar.ico" alt="Imagem Preview">
+        <label for="imagem"></label>
+        <input type="file" id="imagem" name="imagem" accept="image/*" onchange="mostrarImagem(event)"><br><br>
+    </div>
+      
+    </fieldset>
+
+    <!--Corpo do layout para adicionar as informações-->
+    <fieldset  id="inputbox">
+        <div class="labelInput">
+        <label for="titulo">TÍTULO:</label>
+        <input type="text" id="titulo" name="titulo" required>
+      </div>
+      <br><br>
+
+      <div class="labelInput">
+        <label for="descricao">DESCRIÇÃO:</label><br>
+        <textarea id="descricao" name="descricao" required></textarea>
+      </div>
+      <br><br><br><br><br><br><br><br>
+
+        <div class="labelInput">
+        <label for="contato">E-MAIL:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+      </div>
+    <br>
+      <div class="labelInput">
+        <label for="telefone">TELEFONE:</label><br>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+      </div>
+    <br>
+      <div class="labelInput">
+        <label for="bairro">BAIRRO:</label><br>
+        <input type="text" id="bairro" name="bairro" required><br><br>
+      </div>
+    <br>
+      <div class="labelInput">
+        <label for="numero">NÚMERO:</label><br>
+        <input type="number" id="numero" name="numero" required><br><br>
+      </div>
+    <br>
+      <div class="labelInput">
+        <label for="complemento">COMPLEMENTO:</label><br>
+        <input type="text" id="complemento" name="complemento" required><br><br>
+      </div>
+
+        <input type="submit" value="Salvar" id="button">
+      
+    </fieldset>
+ </section>
+ <main>
+        
+ </main>
+ <footer>
+     <div id="footer_content">
+         <div id="footer_contacts">
+             <h1>VEM AQUI</h1>
+             <p>Contato</p>
+
+
+             <div id="footer_social_media">
+                 <a href="https://github.com/DasicTech" class="footer-link" id="github">
+                     <i class="fa-brands fa-github"></i>
+                 </a>
+                 <a href="mailto:dasictech78@gmail.com" class="footer-link" id="email">
+                     <i class="fa-regular fa-envelope"></i>
+                 </a>
+                 </div>
+
+                 <div class="footer-infor">
+                     <li>Recife, Pernambuco</li>
+         <li>Tel: (81) 99999-9999</li>
+                 </div>
+             </div>
+                     <img src="imgs/logo_img_rodape.svg" width="30%" class="logo-rodape">
+                    
+                     <ul class="footer-list">
+                         <li>
+                             <h3>Sobre</h3>
+                         </li>
+                         <li>
+                             <a href="#" class="footer-link">Quem Somos?</a>
+                         </li>
+                         
+                     </ul>
+     
+                     <ul class="footer-list">
+                         <li>
+                             <h3>Softwere</h3>
+                         </li>
+                         <li>
+                             <a href="#" class="footer-link">O que somos?</a>
+                         </li>
+                         
+                     </ul>
+             
+         </div>
+     </div>
+
+     <div id="footer_copyright">
+         &#169
+         2023 all rights reserved; 2023 Vem Aqui
+     </div>
+ </footer>
+
+    
+
+    <script src= "pesquisa.js"></script>
+  </body>
+</html>

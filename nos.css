@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:ital,wght@1,200&display=swap");
 
+	
+
 * {
     margin: 0;
     padding: 0;
-    background-color: #574874;
+    
     list-style: none;
     text-decoration: none;
   }
+  body{
+    background-color: #574874;
+  }
+
 
   header {
     height: 90px;
@@ -62,10 +68,17 @@ h1{
   position: absolute;
   color: white;
   font-size: 400%;
- bottom:65%;
+ bottom:55%;
   left: 10%;
   
 }
+/*h2{
+  position: absolute;
+  color: white;
+  font-size: 200%;
+ bottom:15%;
+  left: 12%;
+}*/
 .text{
   position: absolute;
   color: white;
@@ -74,15 +87,61 @@ h1{
   left: 8%;
 }
 
-.container img{
-  position: absolute;
-  top: 15%;
-  left: 5%;
- 
+.container {
+	display: table;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
-.container2 img{
-  position: absolute;
-  top: 20%;
-  left: 50%;
- 
+
+.container h2 {
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
+	padding-top: 20px;
 }
+
+.container p {
+  position: a;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: italic;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.container a, i {
+	display: inline-block;
+	justify-content: center;
+	margin: 10px;
+}
+.image {
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+	border-radius: 50px;
+	background: #e0e0e0;
+	
+}
+
+.card_felipe, .card_hyago, .card_joao, .card_jose, .card_lucas,
+	.card_thiago {
+	margin: 8px;
+	width: 250px;
+	height: 600px;
+	background: rgba(43, 38, 38, 0.3);
+	box-shadow: 0 8px 32px 0 rgba(70, 70, 70, 0.37);
+	backdrop-filter: blur(3.5px);
+	-webkit-backdrop-filter: blur(3.5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	position: relative;
+	float: left;
+}
+
+
+
+
