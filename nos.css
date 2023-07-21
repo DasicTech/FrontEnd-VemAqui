@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:ital,wght@1,200&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
 	
 
 * {
@@ -64,21 +64,26 @@
     left: 78%;
     align-items: center;
 }
-h1{
-  position: absolute;
-  color: white;
-  font-size: 400%;
- bottom:55%;
-  left: 10%;
-  
-}
-/*h2{
+h2{
   position: absolute;
   color: white;
   font-size: 200%;
- bottom:15%;
+ bottom:75%;
   left: 12%;
-}*/
+}
+.footer-descricao{
+  position: absolute;
+  color: white;
+  font-size: 200%;
+top: 58%;
+  left: 12%;
+}
+.icons{
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
 .text{
   position: absolute;
   color: white;
@@ -119,16 +124,18 @@ h1{
 	margin: 10px;
 }
 .image {
+  position: absolute;
 	display: inline-block;
 	width: 140px;
 	height: 140px;
-	border-radius: 50px;
-	background: #e0e0e0;
+  bottom: 40%;
+  left: 20%;
+	border-radius: 80px;
+	background: rgba(43, 38, 38, 0.3);
 	
 }
 
-.card_felipe, .card_hyago, .card_joao, .card_jose, .card_lucas,
-	.card_thiago {
+.card_Daniel, .card_Igor, .card_Crishefe, .card_Augusto, .card_Caio{
 	margin: 8px;
 	width: 250px;
 	height: 600px;
@@ -140,7 +147,111 @@ h1{
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	position: relative;
 	float: left;
+  
 }
+
+
+:root {
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+
+
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+#footer_content {
+  margin-top: 30px;
+  background-color: var(--color-neutral-10);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+  margin-bottom: 0.75rem;
+}
+
+#footer_social_media .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i {
+  font-size: 1.9rem;
+}
+
+#footer_social_media .footer-link:hover {
+  opacity: 0.8;
+}
+.logo-rodape {
+  position: absolute;
+  width: 110px;
+  left: 85%;
+  display: flex;
+}
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer-list .footer-link {
+  color: var(--color-neutral-30);
+  transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+  color: #7f37c9;
+}
+
+#footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-neutral-0);
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+  #footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
+}
+
 
 
 

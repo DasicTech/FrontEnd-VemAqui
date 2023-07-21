@@ -38,7 +38,14 @@
       </nav>
     </header>
 <div class="container">
-      <img src="imgs/globo.png"/>
+
+  <picture>
+    <source media="(max-width: 750px )" srcset="imgs/globo-p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imgs/globo-m.png" type="image/png">
+    <img src="imgs/globo.png" alt="imagem flexível">
+    
+</picture>
+     
     </div>
     <h1>VEM AQUI <img src="imgs/logo_img_rodape.svg" width="60" /></h1>
     <p class="text-complemento">Um sistema feito especialmente pra você! <br>
@@ -79,7 +86,7 @@
                                 <h3>Sobre</h3>
                             </li>
                             <li>
-                                <a href="#" class="footer-link">Quem Somos?</a>
+                                <a href="nos.html" class="footer-link">Quem Somos?</a>
                             </li>
                             
                         </ul>
