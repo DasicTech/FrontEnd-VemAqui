@@ -1,22 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:ital,wght@1,200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
 * {
+
   margin: 0;
   padding: 0;
-  background-color: #574874;
+
   list-style: none;
   text-decoration: none;
 }
 
-header {
-  height: 90px;
+body {
+  background-color: #574874;
+
+}
+section {
+  width: 100%;
+  height: 70px;
   display: flex;
+  
   justify-content: space-around;
   align-items: center;
   background-color: #574874;
   border-bottom: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  
+}
+.section-img{
+  position: absolute;
+ right: 75%;
+ 
+  
+}
+.section-li{
+  color: #7D2AE8; 
+  font-size: 19px;
+  font-family: sans-serif; 
+  list-style: none;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 nav {
@@ -28,154 +50,116 @@ ul {
   justify-content: space-between;
   width: 100%;
 }
-
-li {
-  font-size: 19px;
-  color: aliceblue;
-  font-family: sans-serif;
-  list-style: none;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
 li:hover {
   color: black;
 }
+.home-img{
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  
+}
 
-.text-hd {
-  color: #fff;
-  font-family: "Open sans", sans-serif;
+
+
+
+
+:root {
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+}
+main {
+    height: 80vh;
+}
+
+
+footer {
+  width: 100%;
+  color: var(--color-neutral-40);
+}
+
+.footer-link {
   text-decoration: none;
-  transition: 1s;
-}
-.text-hd:hover {
-  transform: scale(1.05);
-}
-a:visited {
-  color: #fff;
-}
-h1 {
-  position: absolute;
-  top: 18%;
-  left: 35%;
-  font-size: 240%;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Este id mostra o tamanho em que a imagem selecionada deve aparecer*/
-#preview {
-  max-width: 200px;
-  max-height: 200px;
-  margin-top: 10px;
+#footer_content {
+  margin-top: 30px;
+  background-color: var(--color-neutral-10);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
 }
 
-/*id do fieldset para o layout de adicionar informações*/
-#inputbox {
-  position: absolute;
-  top: 22%;
-  left: 65%;
-  border: 3px solid black;
-  padding: 30px;
-  border-radius: 15px;
-  width: 20%;
-  height: 89.2%;
-  color: white;
-  background-color: #5a4781;
-}
-/*Posição do fielset para por as imagens selecionadas*/
-div.box {
-  width: 300px;
-  display: inline-block;
-  background-color: #5a4781;
-  color: #5a4781;
-  margin-right: 70px;
+#footer_contacts h1 {
+  margin-bottom: 0.75rem;
 }
 
-fieldset {
-  margin-top: 20px;
+#footer_social_media .footer-link {
+  display: inline; /*deixar os simbolos uma ao lado do outro*/
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral-40);
+  border-radius: 50%;
+  transition: all 0.4s;
 }
-/*id do input para adicionar as imagens*/
-#imagem {
-  background-color: #5a4781;
+
+#footer_social_media .footer-link i {
+  font-size: 1.9rem;
 }
-/*id do fieldset para para a posição dos labels e inputs de adição de imagens*/
-#imagens {
+
+#footer_social_media .footer-link:hover {
+  opacity: 0.8;
+}
+.logo-rodape {
   position: absolute;
-  top: 22%;
-  left: 10%;
-  border: 3px solid black;
-  padding: 70px;
-  border-radius: 15px;
-  background-color: #5a4781;
+  width: 110px;
+  left: 85%;
+  display: flex;
 }
-/*ids do layout da caixa de adicionamento de informações*/
-#titulo {
+.footer-li{ /*deixar os nomes no lugar*/
   position: absolute;
-  font-family: "Open Sans";
-  width: 50%;
-  height: 5%;
-  background-color: white;
-  border: 1px solid black;
+ bottom: -15%;
 }
-#descricao {
-  position: absolute;
-  width: 85%;
-  height: 20%;
-  background-color: white;
-  border-radius: 15px;
-  border: 1px solid black;
-  font-family: "Open sans";
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
 }
-#email {
-  position: absolute;
-  width: 50%;
-  height: 5%;
-  background-color: white;
-  border: 1px solid black;
-  font-family: "Open sans";
+
+.footer-list .footer-link {
+  color: var(--color-neutral-30);
+  transition: all 0.4s;
 }
-#telefone {
-  position: absolute;
-  width: 50%;
-  height: 5%;
-  background-color: white;
-  border: 1px solid black;
-  font-family: "Open sans";
+
+.footer-list .footer-link:hover {
+  color: #7f37c9;
 }
-#bairro {
-  position: absolute;
-  width: 50%;
-  height: 5%;
-  background-color: white;
-  border: 1px solid black;
-  font-family: "Open sans";
+
+#footer_copyright {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-neutral-0);
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  font-weight: 100;
 }
-#numero {
-  position: absolute;
-  width: 50%;
-  height: 5%;
-  background-color: white;
-  border: 1px solid black;
-  font-family: "Open sans";
+
+@media screen and (max-width: 768px) {
+  #footer_content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
 }
-#complemento {
-  position: absolute;
-  width: 50%;
-  height: 5%;
-  background-color: white;
-  border: 1px solid black;
-  font-family: "Open sans";
-}
-/*id do botão de salvar*/
-#button {
-  position: absolute;
-  top: 105%;
-  right: 105%;
-  width: 30%;
-  height: 7%;
-  border-radius: 15px;
-  cursor: pointer;
-  color: white;
+
+@media screen and (max-width: 426px) {
+  #footer_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 3rem 2rem;
+  }
 }
 

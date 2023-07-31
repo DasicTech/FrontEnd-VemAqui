@@ -4,168 +4,134 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
-    <title>Vem Aqui</title>
-    <link rel="stylesheet" href="/pesquisa.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="pesquisa.css">
-  </head> 
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="rodape.css">
+
+    <title>Vem Aqui</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
   <body>
-    <header class="header">
-      <p class="text-hd"><a href="./home.html">VEM AQUI</a></p>
+    
+    <section >
+      <a href="#" class="section-img"><img src="imgs/logo-section.png" width = "420" height="215"  alt=""></a>
       <nav>
         <ul>
-          <a href="./home.html">
-            <li>INICIO</li>
+          <a href="home.html">
+            <li class="section-li">INICIO</li>
           </a>
           <a href="">
-            <li>PESQUISADOR</li>
+            <li class="section-li">PESQUISAR</li>
           </a>
           <a href="">
-            <li>FEEDBACK</li>
+            <li class="section-li">FEEDBACK</li>
           </a>
-          
+          <a href="./login.html" id="login">
+            <li class="section-li">LOGIN</li>
+          </a>
+
+          <a href="./cadastro.html">
+            <li class="section-li"> CADASTRO</li>
+          </a>
         </ul>
       </nav>
-    </header>
-
-<h1>Cadastro de estabelecimentos</h1>
-
-   <!-- <div id="divBusca">
-      <input type="text" id="txtBusca" placeholder="Buscar..."/>
-      <button id="btnBusca">Buscar</button>
-    </div>-->
-<section class="divisao">
-          <fieldset id="imagens">
-      <div">
-        <div class="box">
-        <img id="preview" src="imgs/adicionar.ico" alt="Imagem Preview">
-        <label for="imagem"></label>
-        <input type="file" id="imagem" name="imagem" accept="image/*" onchange="mostrarImagem(event)"><br><br>
-    </div>
-
-    <div class="box">
-        <img id="preview" src="imgs/adicionar.ico" alt="Imagem Preview">
-        <label for="imagem"></label>
-        <input type="file" id="imagem" name="imagem" accept="image/*" onchange="mostrarImagem(event)"><br><br>
-    </div>
-      
-      <div>
-        <div class="box">
-        <img id="preview" src="imgs/adicionar.ico" alt="Imagem Preview">
-        <label for="imagem"></label>
-        <input type="file" id="imagem" name="imagem" accept="image/*" onchange="mostrarImagem(event)"><br><br>
-      </div>
-
-    <div class="box">
-        <img id="preview" src="imgs/adicionar.ico" alt="Imagem Preview">
-        <label for="imagem"></label>
-        <input type="file" id="imagem" name="imagem" accept="image/*" onchange="mostrarImagem(event)"><br><br>
-    </div>
-      
-    </fieldset>
-
-    <!--Corpo do layout para adicionar as informações-->
-    <fieldset  id="inputbox">
-        <div class="labelInput">
-        <label for="titulo">TÍTULO:</label>
-        <input type="text" id="titulo" name="titulo" required>
-      </div>
-      <br><br>
-
-      <div class="labelInput">
-        <label for="descricao">DESCRIÇÃO:</label><br>
-        <textarea id="descricao" name="descricao" required></textarea>
-      </div>
-      <br><br><br><br><br><br><br><br>
-
-        <div class="labelInput">
-        <label for="contato">E-MAIL:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-      </div>
-    <br>
-      <div class="labelInput">
-        <label for="telefone">TELEFONE:</label><br>
-        <input type="tel" id="telefone" name="telefone" required><br><br>
-      </div>
-    <br>
-      <div class="labelInput">
-        <label for="bairro">BAIRRO:</label><br>
-        <input type="text" id="bairro" name="bairro" required><br><br>
-      </div>
-    <br>
-      <div class="labelInput">
-        <label for="numero">NÚMERO:</label><br>
-        <input type="number" id="numero" name="numero" required><br><br>
-      </div>
-    <br>
-      <div class="labelInput">
-        <label for="complemento">COMPLEMENTO:</label><br>
-        <input type="text" id="complemento" name="complemento" required><br><br>
-      </div>
-
-        <input type="submit" value="Salvar" id="button">
-      
-    </fieldset>
- </section>
- <main>
-        
- </main>
- <footer>
-     <div id="footer_content">
-         <div id="footer_contacts">
-             <h1>VEM AQUI</h1>
-             <p>Contato</p>
-
-
-             <div id="footer_social_media">
-                 <a href="https://github.com/DasicTech" class="footer-link" id="github">
-                     <i class="fa-brands fa-github"></i>
-                 </a>
-                 <a href="mailto:dasictech78@gmail.com" class="footer-link" id="email">
-                     <i class="fa-regular fa-envelope"></i>
-                 </a>
-                 </div>
-
-                 <div class="footer-infor">
-                     <li>Recife, Pernambuco</li>
-         <li>Tel: (81) 99999-9999</li>
-                 </div>
-             </div>
-                     <img src="imgs/logo_img_rodape.svg" width="30%" class="logo-rodape">
-                    
-                     <ul class="footer-list">
-                         <li>
-                             <h3>Sobre</h3>
-                         </li>
-                         <li>
-                             <a href="#" class="footer-link">Quem Somos?</a>
-                         </li>
-                         
-                     </ul>
-     
-                     <ul class="footer-list">
-                         <li>
-                             <h3>Softwere</h3>
-                         </li>
-                         <li>
-                             <a href="#" class="footer-link">O que somos?</a>
-                         </li>
-                         
-                     </ul>
-             
-         </div>
-     </div>
-
-     <div id="footer_copyright">
-         &#169
-         2023 all rights reserved; 2023 Vem Aqui
-     </div>
- </footer>
-
+    </section>
+  
     
+    <header>
+      <nav class="nav-bar">
+      <div class="logo">
+      <img class="logo-menu" src="img/logopngpequena.png" alt="">
+      </div>
+      <div class="nav-list">
+      <ul>
+      <li class="nav-item"><a href="#" onclick="voltar()" class="nav-link">Início</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+      </ul>
+      </div>
+      <div class="login-button">
+      <button><a href="http://127.0.0.1:5500/lave_em_casa_start-main/frontend_lave_em_casa/login_proprietario.html">Entrar</a>
+      </div>
+      <div class="mobile-menu-icon">
+      <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+      </div>
+      </nav>
+      <div class="mobile-menu">
+      <ul>
+      <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+      </ul>
+      <div class="login-button">
+      <button><a href="#">Entrar</a></button>
+      </div>
+      </header>
 
-    <script src= "pesquisa.js"></script>
+
+
+
+
+
+
+
+      
+     <main>
+        
+    </main>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+
+                <h3>VEM AQUI</h3>
+                <p>Contato</p>
+
+
+                <div id="footer_social_media">
+                    <a href="https://github.com/DasicTech" class="footer-link" id="github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="mailto:dasictech78@gmail.com" class="footer-link" id="email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    </div>
+
+                    <div class="footer-infor">
+                        <li>Recife, Pernambuco</li>
+						<li>Tel: (81) 99999-9999</li>
+                    </div>
+                </div>
+                        <img src="imgs/logo_img_rodape.svg" width="30%" class="logo-rodape">
+                       
+                        <ul class="footer-list">
+                            <li>
+                                <h3>Sobre</h3>
+                            </li>
+                            <li class="footer-li">
+                                <a href="nos.html" class="footer-link">Quem Somos?</a>
+                            </li>
+                            
+                        </ul>
+        
+                        <ul class="footer-list">
+                            <li>
+                                <h3>Software</h3>
+                            </li>
+                            <li class="footer-li">
+                                <a href="infor.html" class="footer-link">O que somos?</a>
+                            </li>
+                            
+                        </ul>
+
+                
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reserved; 2023 Vem Aqui
+        </div>
+    </footer>
   </body>
 </html>
