@@ -13,16 +13,33 @@
 body {
   background-color: #574874;
 }
-header {
-  height: 90px;
+section {
+  width: 100%;
+  height: 70px;
   display: flex;
+  
   justify-content: space-around;
   align-items: center;
   background-color: #574874;
   border-bottom: 1px solid black;
+  background-color: rgb(255, 255, 255);
   
-
 }
+.section-img{
+  position: absolute;
+ right: 75%;
+ 
+  
+}
+.section-li{
+  color: #7D2AE8; 
+  font-size: 19px;
+  font-family: sans-serif; 
+  list-style: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 nav {
   width: 60%;
 }
@@ -31,21 +48,15 @@ ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
 }
-
-.inicio {
-  font-size: 19px;
-  color: aliceblue;
-  font-family: sans-serif;
-  list-style: none;
-  transition: 0.5s;
-  cursor: pointer;
-  padding: 10%;
-}
-
 li:hover {
   color: black;
+}
+.home-img{
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  
 }
 
 .text-hd {
