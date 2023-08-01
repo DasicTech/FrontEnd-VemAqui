@@ -12,7 +12,7 @@ document.getElementById("formulario_usuario").addEventListener("submit", functio
         nome: text,
         email: email,
         senha: password,
-        endereco: endereco
+        telefone: telefone
     };
 
     // Enviar o objeto de anúncio via fetch para a API
