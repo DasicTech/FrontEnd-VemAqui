@@ -16,7 +16,7 @@ document.getElementById("formulario_estabelecimento").addEventListener("submit",
     };
 
     // Enviar o objeto de anúncio via fetch para a API
-    fetch("http://localhost:8080/estabelecimentos",{
+    fetch("http://localhost:8080/api/v1/estabelecimentos",{
         method: "POST",
         headers: {
             "Content-Type": "application/json"
