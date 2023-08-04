@@ -18,7 +18,7 @@ document
     };
 
     // Enviar o objeto de usuário via fetch para a API do backend
-    fetch("http://localhost:8080/ap1/v1/usuarios", {
+    fetch("http://localhost:8080/ap1/v1/usuarios/form", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
