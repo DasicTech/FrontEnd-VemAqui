@@ -36,7 +36,7 @@ document.getElementById("formulario_estabelecimento").addEventListener("submit",
             alert("Erro na requisição. Verifique o console para mais detalhes.");
         });
 
-        fetch("http://localhost:8080/estabelecimentos",{
+        fetch("http://localhost:8080/api/v1/stabelecimentos",{
         method: "DELETE",
         headers: {
             "Content-Type": "application/json"
@@ -55,7 +55,7 @@ document.getElementById("formulario_estabelecimento").addEventListener("submit",
             console.error("Erro na requisição:", error);
             alert("Erro na requisição. Verifique o console para mais detalhes.");
         });
-        fetch("http://localhost:8080/estabelecimentos",{
+        fetch("http://localhost:8080/api/v1/estabelecimentos",{
         method: "UPDATE",
         headers: {
             "Content-Type": "application/json"
