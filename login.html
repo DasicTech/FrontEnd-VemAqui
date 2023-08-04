@@ -12,10 +12,10 @@
   </head>
   <body>
     <section >
-      <a href="#" class="section-img"><img src="imgs/logo-section.png" width = "420" height="215"  alt=""></a>
+      <a href="./home.html" class="section-img"><img src="imgs/logo-section.png" width = "420" height="215"  alt=""></a>
       <nav>
         <ul>
-          <a href="home.html">
+          <a href="./home.html">
             <li class="section-li">INICIO</li>
           </a>
           <a href="">
@@ -42,14 +42,24 @@
 
     <div class="formulario-content">
       <div class="formulario">
+<<<<<<< HEAD
         <img src="imgs/img-login.png" alt="">
         <forms action="./formulario.html">
           <label for="email">EMAIL</label>
           <input id="email"type="email"name="email" onchange="validateFields()" placeholder=" OlaVemAqui@gmail.com"/>
           <label for="password">SENHA</label>
           <input id="tel" type="tel" name="tel" placeholder=" ********" />
+=======
+        <forms method="post">
+          <form id="formulario_usuario_login">
+            <label for="email">EMAIL</label>
+            <input id="email"type="email"name="email" placeholder=" OlaVemAqui@gmail.com"/>
+            <label for="password">SENHA</label>
+            <input id="password" type="password" name="password" placeholder=" ********" />
+>>>>>>> c70b5949319ba39fe4a8fd5fbbdde6145384d1bb
 
-          <button class="bt" type="submit">Entrar</button>
+            <button class="bt" type="submit">Entrar</button>
+          </form>
         </forms>
       </div>
     </div>
@@ -109,6 +119,6 @@
         </div>
     </footer>
 
-    
+    <script src="login.js"></script>
   </body>
 </html>

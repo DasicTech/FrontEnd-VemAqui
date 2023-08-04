@@ -78,7 +78,8 @@ h1 {
   font-size: 155%;
  top: 16%;
   left: 40%;
-  background: linear-gradient(to right, #735f8f, #3f225a);
+  text-decoration: underline;
+  /* background: linear-gradient(to right, #735f8f, #3f225a); */
   border-radius: 1%;
 }
 .logo-infor{
@@ -93,7 +94,8 @@ h2{
   font-size: 150%;
   top: 39%;
   left: 42%;
-  background: linear-gradient(to right, #735f8f, #3f225a);
+  text-decoration: underline;
+  /* background: linear-gradient(to right, #735f8f, #3f225a); */
   border-radius: 1%;
 }
 .noticia{
@@ -102,7 +104,8 @@ h2{
   font-size: 140%;
   top:62%;
   left: 42%;
-  background: linear-gradient(to right, #735f8f, #3f225a);
+  text-decoration: underline;
+ /* background: linear-gradient(to right, #735f8f, #3f225a); */
   border-radius: 1%;
 }
 .vemaqui-1{
