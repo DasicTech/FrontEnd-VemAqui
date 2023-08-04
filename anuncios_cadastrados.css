@@ -13,6 +13,7 @@
 body {
   background-color: #574874;
 
+
 }
 section {
   width: 100%;
@@ -66,8 +67,141 @@ li:hover {
 }
 
 
+.h1-comercio{
+ text-align: center;
+ color: white;
+  font-family: "Poppins", sans-serif;
+  padding-top: 2%;
+  align-items: center;
+  
+}
+.h2-comercio{
+  text-align: center;
+  color: white;
+   font-family: "Poppins", sans-serif;
+   padding-top: 0%;
+   align-items: center;
+   
+ }
 
 
+.comercio-content{
+display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding: 1rem 0;
+ color: white;
+}
+
+.nome{
+  position: absolute;
+  top: 28%;
+  left: 55%;
+}
+.endereco{
+  position: absolute;
+  top:42% ;
+  left: 55%;
+
+}
+.telefone{
+  position: absolute;
+  left: 55%;
+  top: 55%;
+}
+.descricao{
+  position: absolute;
+top: 95%;
+ left: 55%;
+}
+.horario-a{
+  position: absolute;
+  top:69%;
+  left: 55%;
+  
+}
+.horario-f{
+  position: absolute;
+  top:82%;
+  left: 55%;
+}
+.img-cadastro{
+  position: absolute;
+  left: 20%;
+}
+.btn-cadastro{
+  position: absolute;
+  top: 106%;
+  left: 22%;
+ width: 10%;
+}
+.input-box input{
+  margin: 0.6rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  box-shadow: 1px 1px 6px #0000001c;
+  font-size: 0.8rem;
+}
+label,
+select {
+  display: block;
+}
+input,
+select,
+option {
+  width: 250px;
+  height: 50px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  color: black;
+  border: transparent;
+  border-bottom: solid 3px white;
+  transition: 0.5s;
+  outline: none;
+  background-color: white;
+}
+
+input:hover {
+  border-bottom: solid rgb(204, 117, 204);
+  transform: scale(1.05);
+}
+
+button {
+  display: inline-block;
+  background-color: white;
+  font-size: 17px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: black;
+  width: 50%;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 15px;
+  margin-left: 20%;
+}
+
+.bt:hover {
+  color: white;
+  background-color: rgb(204, 117, 204);
+}
+button {
+  display: inline-block;
+  background-color: white;
+  font-size: 17px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: black;
+  width: 50%;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 15px;
+  margin-left: 20%;
+}
+span {
+  color: #fff;
+  font-size: 19px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
 
 
 :root {
@@ -126,9 +260,10 @@ li:hover {
     left: 85%;
     display: flex;
   }
+ 
   .footer-li{ /*deixar os nomes no lugar*/
     position: absolute;
-   bottom: -15%;
+   top: -5;
   }
   .footer-list {
     display: flex;

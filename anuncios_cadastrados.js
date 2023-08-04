@@ -76,3 +76,4 @@ document.getElementById("formulario_estabelecimento").addEventListener("submit",
         });
         
 });
+

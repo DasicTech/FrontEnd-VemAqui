@@ -97,6 +97,10 @@ a:visited {
 
 .formulario-content {
   align-items: center;
+background: #593687;
+ border-radius: 20%;
+ 
+   
 }
 .formulario {
   margin-top: 35px;
@@ -168,6 +172,8 @@ footer {
 
 .footer-link {
   text-decoration: none;
+ 
+  
 }
 
 #footer_content {

@@ -107,6 +107,8 @@ a:visited {
   display: flex;
   justify-content: space-evenly;
   font-family: sans-serif;
+  background: #593687;
+ border-radius: 20%;
 }
 
 label,
