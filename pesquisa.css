@@ -12,6 +12,8 @@
 
 body {
   background-color: #574874;
+  height: 100%;
+  width: 100%;
 
 }
 section {
@@ -29,6 +31,7 @@ section {
 .section-img{
   position: absolute;
  right: 75%;
+ 
  
   
 }
@@ -59,9 +62,93 @@ li:hover {
   left: 45%;
   
 }
+h2{
+  position: absolute;
+  color: white;
+  font-size: 200%;
+ bottom:25%;
+  left: 12%;
+}
+.footer-descricao{
+  position: absolute;
+  color: white;
+  font-size: 200%;
+  top: 58%;
+  left: 12%;
+
+}
+
+.image {
+  position: absolute;
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+  bottom: 50%;
+  left: 6%;
+	border-radius: 20px;
+	background: rgba(43, 38, 38, 0.3);
+  border:5px solid rgb(0, 0, 0);
+	
+}
+.container h2 {
+  position: absolute;
+  top: -2%;
+  left: 22%;
+	color: rgb(9, 1, 1);
+	font-size: 25px;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
 
 
-
+.card_anuncio{
+	margin: 8px;
+	width: 315px;
+	height: 525px;
+	background: rgba(255, 255, 255, 0.911);
+	box-shadow: 0 8px 32px 0 rgba(70, 70, 70, 0.37);
+	backdrop-filter: blur(3.5px);
+	-webkit-backdrop-filter: blur(3.5px);
+	border-radius: 10px;
+	border:5px solid rgb(0, 0, 0);
+	position: relative;
+	float: left;
+  
+  
+}
+.btn-1{
+  position: absolute;
+  background-color: #694597;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  top: 104%;
+  left: 10%;
+  cursor: pointer;
+}
+.btn-2{
+  position: absolute;
+  background-color: #694597;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  top: 104%;
+ left: 50%;
+ cursor: pointer;
+}
+.btn-1:hover{
+  color: white;
+  background-color: rgb(107, 68, 119);
+}
+.btn-2:hover{
+  color: white;
+  background-color: rgb(107, 68, 119);
+}
+.footer-descricao{
+  position: absolute;
+  color: rgb(10, 7, 7);
+  font-size: 100%;
+top: 54%;
+  left: 12%;
+}
 
 
 :root {

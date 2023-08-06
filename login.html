@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Vem Aqui</title>
     <link rel="stylesheet" href="login.css" />
@@ -43,12 +43,130 @@
     <div class="formulario-content">
       <div class="formulario">
         <img src="imgs/img-login.png" alt=""> 
-        <forms method="post"></forms>
-        <forms action="./formulario.html">
+
+       
+          <form id="formulario_usuario_login">
           <label for="email">EMAIL</label>
-          <input id="email"type="email"name="email" onchange="validateFields()" placeholder=" OlaVemAqui@gmail.com"/>
+          <input id="email"type="email"name="email"  placeholder=" OlaVemAqui@gmail.com"/>
           <label for="password">SENHA</label>
-          <input id="tel" type="tel" name="tel" placeholder=" ********" />
+          <input id="password" type="password" name="password" placeholder=" ********" />
+ 
+           <button class="bt" type="submit">Entrar</button>
+         </form>
+       
+
+      </div>
+    </div>
+  
+    <main>
+        
+    </main>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>VEM AQUI</h1>
+                <p>Contato</p>
+
+
+                <div id="footer_social_media">
+                    <a href="https://github.com/DasicTech" class="footer-link" id="github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="mailto:dasictech78@gmail.com" class="footer-link" id="email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    </div>
+
+                    <div class="footer-infor">
+                        <li>Recife, Pernambuco</li>
+						<li>Tel: (81) 99999-9999</li>
+                    </div>
+                </div>
+                        <img src="imgs/logo_img_rodape.svg" width="30%" class="logo-rodape">
+                       
+                        <ul class="footer-list">
+                            <li>
+                                <h3>Sobre</h3>
+                            </li>
+                            <li>
+                                <a href="nos.html" class="footer-link">Quem Somos?</a>
+                            </li>
+                            
+                        </ul>
+        
+                        <ul class="footer-list">
+                            <li>
+                                <h3>Software</h3>
+                            </li>
+                            <li>
+                                <a href="infor.html" class="footer-link">O que somos?</a>
+                            </li>
+                            
+                        </ul>
+
+                
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2023 all rights reserved; 2023 Vem Aqui
+        </div>
+    </footer>
+
+    <script src="login.js"></script>
+  </body>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Vem Aqui</title>
+    <link rel="stylesheet" href="login.css" />
+
+  </head>
+  <body>
+    <section >
+      <a href="./home.html" class="section-img"><img src="imgs/logo-section.png" width = "420" height="215"  alt=""></a>
+      <nav>
+        <ul>
+          <a href="./home.html">
+            <li class="section-li">INICIO</li>
+          </a>
+          <a href="">
+            <li class="section-li">PESQUISAR</li>
+          </a>
+          <a href="">
+            <li class="section-li">FEEDBACK</li>
+          </a>
+          <a href="./login.html" id="login">
+            <li class="section-li">LOGIN</li>
+          </a>
+
+          <a href="./cadastro.html">
+            <li class="section-li"> CADASTRO</li>
+          </a>
+        </ul>
+      </nav>
+    </section>
+    <div class="text-form">
+      <h1 class="TituloP">Login</h1>
+      <h2 class="TituloS">Entre com a sua Conta</h2>
+    </div>
+
+    <div class="formulario-content">
+      <div class="formulario">
+        <forms method="get">
+          <form id="formulario_usuario_login">
+            <label for="email">EMAIL</label>
+            <input id="email"type="email"name="email" placeholder=" OlaVemAqui@gmail.com"/>
+            <label for="password">SENHA</label>
+            <input id="password" type="password" name="password" placeholder=" ****" />
 
             <button class="bt" type="submit">Entrar</button>
           </form>
@@ -113,4 +231,4 @@
 
     <script src="login.js"></script>
   </body>
-</html>
+</html>-->

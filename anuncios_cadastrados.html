@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="rodape.css">
@@ -27,13 +27,10 @@
           <a href="">
             <li class="section-li">FEEDBACK</li>
           </a>
-          
-          
-          
-          <div class="logado">
             <a href="home.html" class="sair">Sair</a>
-               <label class="mr-" for="">João Bezerra</label>
-          </div>
+
+            <label id="nomelogin" for=""></label>
+         
           </a>
         </ul>
       </nav>
@@ -44,7 +41,9 @@
 
     <div class="comercio-content">
       <img class="img-cadastro" src="imgs/img-cadastro-loja.png" alt="">
-      <form action="#">
+
+      <forms method="post">
+        <form action="" id="formulario_estabelecimento">
         <div class="nome">
           <label for="text" >Nome do Comércio </label>
           <input
@@ -52,6 +51,16 @@
             type="text"
             name="text"
             placeholder=" Padaria São jorge "
+            required
+          />
+        </div>
+        <div class="email">
+          <label for="email" >E-mail </label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder=" exemplo@gmail.com "
             required
           />
         </div>
@@ -67,7 +76,7 @@
               />
         </div>
             
-            <div class="descricao">
+            <div class="descricao" >
               <label for="descricao" >descrição</label>
               <textarea
                 id="descricao"
@@ -118,7 +127,8 @@
         
         </div>
             </div>
-      </form>
+          </form>
+      </forms>
 
 
 
@@ -182,5 +192,7 @@
             2023 all rights reserved; 2023 Vem Aqui
         </div>
     </footer>
-    <link rel="stylesheet" href="anuncios_cadastrados.js">
+   
   </body>
+  <script src="anuncios_cadastrados.js"></script>
+  </html>
