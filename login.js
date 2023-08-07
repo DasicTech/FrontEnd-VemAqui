@@ -38,20 +38,11 @@ document
         alert("Senha ou Email digitado errado");
       });
   });
-  document.getElementById("formulario_usuario_login").addEventListener("submit")
-Event.preventDefault(); //Impede o envio de formulario
+document.getElementById("formulario_usuario_login").addEventListener("submit");
+Event.preventDefault();
 
-//Obter os valores do formulario 
 var email = document.getElementById("email").value;
 var senha = document.getElementById("senha").value;
 
-// Aqui faz a autenticação com back-end como está fazendo
-//Suponho que a autenticação foi bem sucedida e você tem o nome do login
-var nomelogin = "nome_do_login";
-
-//Armazenar o nome de login no sessionstore
-sessionStorage.getItem("nomelogin");
-
-//Redirecionar para a página  de  destino após  o login
 var redirectUrl = "anuncios_cadastrados.html";
 window.location.href = redirectUrl;
